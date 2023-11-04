@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content=""><!-- alummno que corresponda -->
+    <meta name="keywords" content=" aqui van las palabras claves, para los motores de busqueda separadas por coma">
+    <meta name="description"
+        content="aqui podemos poner una pequeña reseña sobre nuestra pagina aprox entre 70 y 100 caracteres">
+    <meta http-equiv=" X-UA-Compatible" content="IE=edge">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- links -->
+    <link rel="stylesheet" href="/css/productDetail.Css">
+    <!-- <link rel="stylesheet" href="/css/generales.css"> -->
+    <link rel="stylesheet" href="/css/normalize.css">
+
+    <!-- Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;0,900;1,300;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+    <!-- Titulo -->
+    <title>Product Detail</title>
+</head>
+
+<body>
+    <!-- <header>
+        <img class="header__logo" src="img/logo.png" alt="logo">
+        <img id="header__hamburguer" src="img/menu.png" alt="menu">
+        <nav id="nav__menu" class="nav__menu nav__menu-hidden">
+            <ul class="ul__menu__perfil">
+                <li id="li__menu__close__hamburguer">X</li>
+                <li class="li__menu__nombre">Hola! Nombre persona</li>
+                <li class="li__menu__miPerfil"><a href="#">Mi perfil</a></li>
+                <li class="li__menu__img__user"><img src="img/logo.png" alt="User"></li>
+            </ul>
+            <ul class="ul__menu__navegacion">
+                <li><a href="#">Home<i class="fa-solid fa-house li__menu__icon"></i></a></li>
+                <li class="li__menu__login"><a href="#">Login</a></li>
+                <li class="li__menu__paquetes"><a href="#">Paquetes<i class="fa-solid fa-bell-concierge li__menu__icon"></i></a></li>
+                <li class="li__menu__servicios"><a href="#">Servicios <i class="fa-solid fa-bell-concierge li__menu__icon"></i></a></li>
+                <li class="li__menu__servicios"><a href="#">Contacto <i class="fa-solid fa-address-book li__menu__icon"></i></a></li>
+                <li class="li__menu__cerrarsesion"><a href="#">Cerrar sesion<i class="fa-solid fa-right-from-bracket li__menu__icon"></i></a></li>
+            </ul>
+        </nav> -->
+</header>
+
+
+<!-- MAIN -->
+    <main>
+        <h1 class="titulo-h1">PUNTA CANA <br> <span>TU MEJOR EXPERIENCIA</span></h1>
+        
+        <section class="contenedor-galeria">
+
+            <!-- IMAGEN GRANDE DE LA IZQUIERDA -->
+            <div class=imagen-principal-izquierda>
+                <img class="imagen-grande" src="/img/descanso_producto.jpg" alt="imagen de Punta Cana">
+            </div>
+
+            <!-- IMAGENES CHICAS DE LA DERECHA -->
+            <div class="imagen-derecha">
+                <img class="fotos-varias" src="/img/descanso_producto.jpg" alt="imagen de descanso">
+                <img class="fotos-varias" src="/img/estadia.jfif" alt="imagen de estadia">
+                <img class="fotos-varias" src="/img/excursiones_producto.jpg" alt="imagenes de excursion">
+                <img class="fotos-varias" src="/img/bienvenida_producto.jfif" alt="imagen del lugar">
+            </div>
+        </section>
+
+        <!-- ------- -->
+        <!-- DETALLE -->
+        <!-- ------- -->
+
+        <section class="contenedor-detalles">
+            <article class="detalle">
+                <div class="">
+                    <i class="fa-solid fa-clock"></i>
+                    <h5> Duración: 10 dias <br> 7 noches</h5>
+                </div>
+            </article>
+
+            <article class="detalle">
+                <div>
+                    <i class="fa-solid fa-tags"></i>
+                    <h5> Desde: $175.000 </h5>
+                </div>
+            </article>
+
+            <article class="detalle">
+                <div>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h5> Salidas desde Córdoba</h5>
+                </div>
+            </article>
+
+            <article class="detalle">
+                <div>
+                    <i class="fa-solid fa-user"></i>
+                    <h5> Personas desde: 0 años</h5>
+                </div>
+            </article>
+        </section>
+         <!-- ------- -->
+        <!-- INCLUYE -->
+        <!-- ------- -->
+
+        <section class="pack-incluye">
+
+            <div class="elementos-incluye">
+                <h2>Incluye</h2>
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-user-doctor"></i>
+                            Asistencia al Viajero
+                    </li>
+                    <li>
+                        <p> <span>
+                                <i class="fa-solid fa-hotel"></i>
+                            </span>Hoteles 5 estrellas
+                        </p>
+                    </li>
+                    <li>
+                        <p><span><i class="fa-solid fa-user"></i>
+                            </span> Coordinador perrmanente y guias locales
+                        </p>
+                    </li>
+                    <li>
+                        <p> <span>
+                                <i class="fa-solid fa-utensils"></i>
+                            </span>Régimen de comidas todo incluido
+                        </p>
+                    </li>
+                    <li>
+                        <p> <span><i class="fa-solid fa-map-location-dot"></i>
+                            </span>Excursiones según programa
+                        </p>
+                    </li>
+                    <li>
+                        <p> <span><i class="fa-solid fa-bus"></i>
+                            </span>Traslados de ingreso y egreso
+                        </p>
+                    </li>
+                    
+                </ul>
+            </div>
+        </section>
+        
+        <form action="" method="get">
+            <label for="solicitar"></label>
+            <button type="submit">Solicitar</button>
+        
+        </form>
+      
+
+
+    </main>
+    <footer>
+
+    </footer>
+    <script src="https://kit.fontawesome.com/c2d7c9299d.js" crossorigin="anonymous"></script>
+
+
+
+</body>
